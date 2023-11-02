@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    --kleur1: #fffafb;
+    --kleur2: #7de2d1;
+    --kleur3: #339989;
+    --kleur4: #2b2c28;
+    --kleur5: #131515;
+
+    --kleur6: #fe5f55;
+    --kleur7: #d9bbf9;
+    --kleur8: #eef5db;
+    --kleur9: #588b8b;
+    --kleu10: #333745;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    z-index: 150;
+    width: 100%;
+    height: 60px;
+    top: 10px;
+    background-color: rgba(255, 250, 251, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+}
+
+.bb {
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 160;
+    fill: var(--kleur3);
+    
+}
+
+
+
+.btn1 a, .btn2 a {
+    background-color: var(--kleur2);
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 10px;
+    right: 10px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #131515;
+    font-size: 1.5em;
+}
+
+.btn2 a {
+    top: 520px;
+}
+
+.btn1 a {
+    top: 390px;
+}
+
+.openzin {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.stc a {
+    background-color: var(--kleur3);
+    position: absolute;
+    top: 300px;
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #131515;
+    font-size: 1.5em;
+}
+
+.first {
+    display: flex;
+    height: 300vh;
+    width: 100vw;
+    position: relative;
+    z-index: 100;
+    background-color: var(--kleur1);
+}
+
+.second {
+    height: 110vh;
+    width: 100vw;
+    background-color: var(--kleur3);
+    border-radius: 40px 40px 0px 0px;
+    position: absolute;
+    z-index: 110;
+    top: 97vh;
+    
+}
+
+.last {
+    height: 110vh;
+    width: 100vw;
+    background-color: var(--kleur5);
+    border-radius: 40px 40px 0px 0px;
+    position: absolute;
+    z-index: 120;
+    top: 97vh;
+}
